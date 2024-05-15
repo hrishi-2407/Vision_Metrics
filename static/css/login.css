@@ -1,0 +1,22 @@
+
+
+#login-left{
+    /* margin: 2%; */
+    text-align: left;
+}
+
+
+#login-left h1{
+    color: white;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+#login-right{
+    margin-top: 3%;
+}
+

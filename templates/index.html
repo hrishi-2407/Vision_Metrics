@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisionMetrics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/explore_button.css">
+    <link rel="stylesheet" href="../static/css/end-page-animation.css"
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Kode+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark"> -->
+<nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"><img src="../static/Images/Logo/Light-logo-copy.jpg" style="width: 250px; height: 60px;"></a>
+
+    <!-- The ../ moves up one directory level from the "templates" folder to the "project_root" folder where the "static" folder resides. -->
+    
+    <!-- <a class="navbar-brand" href="index.html"><h2 class="logo">VM | VisionMetrics</h2></a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: right;">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/" style="padding-left: 40px;">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/explore" style="padding-left: 40px;">EXPLORE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/feature" style="padding-left: 40px;">FEATURES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about" style="padding-left: 40px;">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login" style="padding-left: 40px;">LOGIN</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Carousel -->
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000">
+      <img src="../static/Images/7.jpg" class="d-block w-100" alt="Please Hold Up For a Second.......">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 style="padding-bottom: 2%;">Dive into VisionMetrics!</h1>
+        <!-- <h4 style="padding-bottom: 20%;">Here we transform analog gauge readings into digital metrics with cutting-edge computer vision technology. Experience seamless automation, real-time insights, and customizable solutions for enhanced efficiency. Join us at the forefront of innovation in gauge automation.</h4> -->
+        <!-- <h1>Gear Up!!</h1> -->
+        <!-- <p>Some representative placeholder content for the first slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../static/Images/4.jpg" class="d-block w-100" alt="Please Hold Up For a Second.......">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Gear Up For Gauge Automation!!</h1>
+        <!-- <p>Some representative placeholder content for the second slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="../static/Images/5.jpg" class="d-block w-100" alt="Please Hold Up For a Second.......">
+      <div class="carousel-caption d-none d-md-block">
+        <h1>Transforming Analog Complexity into Automated Precision...</h1>
+        <!-- <p>Some representative placeholder content for the third slide.</p> -->
+      </div>
+    </div>
+  </div>
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button> -->
+</div>
+
+
+
+<!-- Intro -->
+
+<div class="container" id="con-1">
+  <h1>VisionMetrics</h1>
+  <hr>
+  <br>
+  <h3>Welcome to VisionMetrics – Your Gateway to Precision in Gauge Automation! Revolutionizing analog gauge monitoring, VisionMetrics employs cutting-edge computer vision techniques to automate and enhance precision in data extraction. Say goodbye to manual interpretations and hello to real-time, multi-disciplinary insights. From seamless integration to cost-effective implementation, our platform ensures accuracy, scalability, and efficiency. Explore the future of gauge analytics with VisionMetrics – where every reading becomes a step towards automated precision. Get ready to transform the way you monitor and interpret analog gauges. Experience the power of VisionMetrics today!</h3>
+  <br>
+  <br>
+  
+  <a href="/explore">
+    <button class="btn">
+    <span class="btn-text-one">Explore</span>
+    <span class="btn-text-two">Let's Go!</span>
+    </button>
+  </a>
+</div>
+
+
+
+<!-- FAQ's -->
+
+<div class="container">
+  <div class="card">
+    <div class="card-header">
+      FAQ's
+    </div>
+    <div class="card-body">
+      <blockquote class="blockquote mb-0">
+        <p>Q: What is VisionMetrics?</p>
+        <footer class="blockquote-footer"><cite title="Source Title">VisionMetrics is an innovative system that automates the interpretation of analog gauges using advanced computer vision technology, providing real-time insights and precise metrics.</cite></footer>
+      </blockquote>
+      <hr>
+      <blockquote class="blockquote mb-0">
+        <p>Q: How does VisionMetrics work?</p>
+        <footer class="blockquote-footer"><cite title="Source Title">VisionMetrics employs computer vision techinques or algorithms to analyze images or video feeds containing analog gauges. It detects, recognizes, and calibrates different gauge types to extract meaningful metrics.</cite></footer>
+      </blockquote>
+      <hr>
+      <blockquote class="blockquote mb-0">
+        <p>Q: What types of gauges does VisionMetrics support?</p>
+        <footer class="blockquote-footer"><cite title="Source Title">VisionMetrics is designed to support various analog gauges found in different industries, offering adaptability to diverse gauge designs and functionalities.</cite></footer>
+      </blockquote>
+      <hr>
+      <blockquote class="blockquote mb-0">
+        <p>Q: How does VisionMetrics ensure accuracy?</p>
+        <footer class="blockquote-footer"><cite title="Source Title">VisionMetrics ensures accuracy through calibration mechanisms, adapting to varying environmental conditions, and employing machine learning models for enhanced interpretation.</cite></footer>
+      </blockquote>
+      <hr>
+      <blockquote class="blockquote mb-0">
+        <p>Q: Can VisionMetrics integrate with existing systems?</p>
+        <footer class="blockquote-footer"><cite title="Source Title">Absolutely, VisionMetrics seamlessly integrates with existing monitoring or control systems in industries, enhancing overall efficiency and compatibility.</cite></footer>
+      </blockquote>
+      <hr>
+      <blockquote class="blockquote mb-0">
+        <p>Q: How can I get started with VisionMetrics?</p>
+        <footer class="blockquote-footer"><cite title="Source Title">To get started with VisionMetrics, explore our website for more information, or reach out to our team for personalized assistance in implementing automated gauge reading in your environment.</cite></footer>
+      </blockquote>
+    </div>
+  </div>
+</div>
+
+
+<!-- End Page Animation -->
+
+<div class="loader" style="padding: 50px;">
+  <div class="circle">
+    <div class="dot"></div>
+    <div class="outline"></div>
+  </div>
+  <div class="circle">
+    <div class="dot"></div>
+    <div class="outline"></div>
+  </div>
+  <div class="circle">
+    <div class="dot"></div>
+    <div class="outline"></div>
+  </div>
+  <div class="circle">
+    <div class="dot"></div>
+    <div class="outline"></div>
+  </div>
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
