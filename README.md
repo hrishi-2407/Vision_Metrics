@@ -21,7 +21,7 @@
 • Alert System: Enable continuous, real-time monitoring and alerts for anomalies.
 
 
-###Benefits:
+### Benefits:
 
 • Efficiency: Automates the meter reading process, saving time and reducing human errors.
 
